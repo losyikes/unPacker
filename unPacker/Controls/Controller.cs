@@ -88,16 +88,7 @@ namespace unPacker
         {
             Main.Dispatcher.Invoke(new Action(() => Main.unPackOutput.AppendText(msg + Environment.NewLine)), DispatcherPriority.Render);
             Main.unPackOutput.ScrollToEnd();
-            // 7 - Zip[64] 9.20  Copyright(c) 1999 - 2010 Igor Pavlov  2010 - 11 - 18
-
-            //Processing archive: D:\Downloads\test ting\Bonderoeven.S15E02.DANiSH.PDTV.x264 - TVBYEN\bonderoeven.s15e02.danish.pdtv.x264 - tvbyen.rar
-
-            //Extracting bonderoeven.s15e02.danish.pdtv.x264 - tvbyen.mp4
-
-            //Everything is Ok
-
-            //Size: 581963531
-            //Compressed: 581968328
+            
         }
 
     }
