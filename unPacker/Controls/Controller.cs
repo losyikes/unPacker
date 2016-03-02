@@ -27,7 +27,6 @@ namespace unPacker
             List<String> files = new List<String>();
             foreach (string f in Directory.GetFiles(path))
             {
-                
                 if (Path.GetExtension(f) == ".rar")
                 {
                     if (f.ToLower().Contains("part") && f.ToLower().Contains("part001"))
@@ -44,9 +43,6 @@ namespace unPacker
         {
 
         }
-
-        
-
         public void StartUnpacking(string path, string destinationPath)
         {
             int count = getFileList(path).Count();
@@ -56,10 +52,8 @@ namespace unPacker
                 i++;
                 Main.statusTxtBlock.Text = "unPacking File: " + i.ToString() + " Out of " + count.ToString();
                 unPack(file, destinationPath);
-                
             }
             Main.statusTxtBlock.Text = "Done! unpacked " + i.ToString() + " Out of " + count.ToString() + " Files";
-
         }
         public void unPack(string srcPath, string destPath)
         {
@@ -81,7 +75,6 @@ namespace unPacker
                 OutputToTextBox(strOutput);
            
             reg.WaitForExit();
-
         }
         
         void OutputToTextBox(string msg)

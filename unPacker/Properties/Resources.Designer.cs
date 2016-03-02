@@ -63,9 +63,9 @@ namespace unPacker.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap unPackerLogo {
+        internal static System.Drawing.Bitmap unPacker_logo_res {
             get {
-                object obj = ResourceManager.GetObject("unPackerLogo", resourceCulture);
+                object obj = ResourceManager.GetObject("unPacker_logo_res", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

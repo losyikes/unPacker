@@ -25,7 +25,7 @@
         </Style>
     </Window.Resources>
     <Grid >
-        <Image x:Name="image" Source="Resources/unPackerLogo.Png" HorizontalAlignment="Left" Height="60" Margin="35,20,0,0" VerticalAlignment="Top" Width="60"/>
+        <Image x:Name="image" Source="Resources/unPacker_logo_res.Png" HorizontalAlignment="Left" Height="60" Margin="35,20,0,0" VerticalAlignment="Top" Width="60"/>
         <DockPanel HorizontalAlignment="Center" VerticalAlignment="Top" Height="80" Margin="326,5,326,0">
             <Button Content="Main" Click="mainBtnClick" Style="{StaticResource mainMenuBtns}" />
             <Button Content="Settings" Click="settingsBtnClick" Style="{StaticResource mainMenuBtns}" />

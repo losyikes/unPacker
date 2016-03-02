@@ -23,18 +23,15 @@ namespace unPacker
     public partial class MainWindow : Window
     {
         List<Grid> mainGridList = new List<Grid>();
-        
         public MainWindow()
         {
             InitializeComponent();
             populateLists();
         }
-
         private void mainBtnClick(object sender, RoutedEventArgs e)
         {
             showGrid(mainWindowGrid, mainGridList);
         }
-
         private void settingsBtnClick(object sender, RoutedEventArgs e)
         {
             showGrid(settingsGrid, mainGridList);
